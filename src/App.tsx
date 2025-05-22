@@ -1,6 +1,12 @@
+import Header from "./Components/Header"
+import Main from "./Components/Main"
+
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <Header />
+      <Main />
+    </div>
   )
 }
 
